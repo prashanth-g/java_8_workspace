@@ -24,7 +24,7 @@ public class Suppliers01 {
 
         Supplier<Long> timeSupplier= Suppliers01::getCurrentTimeInMs;
         Long currentTime = timeSupplier.get();
-        System.out.println("currentTime->" + currentTime);
+        System.out.println("currentTime : " + currentTime);
 
     }
 
